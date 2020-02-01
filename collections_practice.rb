@@ -26,5 +26,5 @@ def kesha_maker strings_array
 end
 
 def find_a strings_array
-  
+  strings_array.select
 end
