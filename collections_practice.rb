@@ -35,7 +35,8 @@ end
 
 def add_s strings_array
   strings_array.each_with_index.collect do |string, i|
-    if  i = 1 
+    if  i = 1
+      string
     else 
     end 
   end 
