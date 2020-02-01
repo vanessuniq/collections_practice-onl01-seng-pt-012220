@@ -21,4 +21,5 @@ end
 
 def kesha_maker strings_array
   new = []
+  new << 
 end
