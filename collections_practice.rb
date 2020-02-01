@@ -30,5 +30,5 @@ def find_a strings_array
 end
 
 def sum_array intergers_array
-  intergers_array.inject {|sum, interger|}
+  intergers_array.inject {|sum, interger| sum }
 end 
