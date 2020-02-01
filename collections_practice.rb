@@ -34,7 +34,7 @@ def sum_array intergers_array
 end 
 
 def add_s strings_array
-  strings_array.each_with_index.collect do |string, index|
-     
+  strings_array.each_with_index.collect do |string, i|
+    if  
   end 
 end
