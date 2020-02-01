@@ -36,7 +36,7 @@ def add_s strings_array
     if  i = 1
       string
     else 
-      string << 's'
+      string << "s"
     end 
   end 
 end
