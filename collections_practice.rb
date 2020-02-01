@@ -21,7 +21,6 @@ end
 
 def kesha_maker strings_array
   strings_array.each {|string| string[2] = "$"}
-  new
 end
 
 def find_a strings_array
