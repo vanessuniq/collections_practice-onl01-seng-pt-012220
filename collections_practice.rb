@@ -24,3 +24,4 @@ def kesha_maker strings_array
   new << array.each {|string| string[2] = "$"}
   new
 end
+
