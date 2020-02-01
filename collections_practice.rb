@@ -32,3 +32,5 @@ end
 def sum_array intergers_array
   intergers_array.inject {|sum, interger| sum + interger}
 end 
+
+def
