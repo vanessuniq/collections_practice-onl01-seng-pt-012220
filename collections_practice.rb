@@ -35,9 +35,9 @@ def add_s strings_array
   new = []
   new << strings_array.each_with_index do |string, i|
     if  i = 1
-      string
+      puts string
     else 
-      string + "s"
+      puts string + "s"
     end 
   end 
   new
