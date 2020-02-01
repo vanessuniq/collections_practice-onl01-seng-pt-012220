@@ -32,11 +32,13 @@ def sum_array intergers_array
 end 
 
 def add_s strings_array
-  strings_array.each_with_index.collect do |string, i|
+  new = []
+  new << strings_array.each_with_index do |string, i|
     if  i = 1
       string
     else 
       string + "s"
     end 
   end 
+  new
 end
