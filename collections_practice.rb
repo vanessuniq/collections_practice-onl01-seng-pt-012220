@@ -22,4 +22,5 @@ end
 def kesha_maker strings_array
   new = []
   new << array.each {|string| string[2] = "$"}
+  new
 end
