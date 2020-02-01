@@ -20,7 +20,7 @@ def reverse_array array
 end 
 
 def kesha_maker strings_array
-  new << strings_array.each {|string| string[2] = "$"}
+  strings_array.each {|string| string[2] = "$"}
   new
 end
 
