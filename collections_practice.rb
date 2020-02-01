@@ -28,3 +28,7 @@ end
 def find_a strings_array
   strings_array.select {|string| string.start_with?('a')}
 end
+
+def sum_array intergers_array
+  
+end 
