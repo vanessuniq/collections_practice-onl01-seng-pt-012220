@@ -20,5 +20,5 @@ def reverse_array
 end 
 
 def kesha_maker strings_array
-  
+  new = []
 end
