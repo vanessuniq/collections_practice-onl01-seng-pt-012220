@@ -21,5 +21,5 @@ end
 
 def kesha_maker strings_array
   new = []
-  new << 
+  new << array.each {|string| }
 end
