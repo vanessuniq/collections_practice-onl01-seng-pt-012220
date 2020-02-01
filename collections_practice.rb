@@ -38,6 +38,7 @@ def add_s strings_array
     if  i = 1
       string
     else 
+      
     end 
   end 
 end
