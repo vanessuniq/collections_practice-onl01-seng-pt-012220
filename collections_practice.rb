@@ -19,5 +19,6 @@ def reverse_array
   array.reverse
 end 
 
-def kesha_maker
+def kesha_maker strings_array
+  
 end
