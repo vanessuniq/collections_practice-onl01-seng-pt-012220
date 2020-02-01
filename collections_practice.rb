@@ -25,5 +25,6 @@ def kesha_maker strings_array
   new
 end
 
-def find_a 
+def find_a strings_array
+  
 end
