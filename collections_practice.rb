@@ -39,5 +39,4 @@ def add_s strings_array
       puts string + "s"
     end 
   end 
-  new
 end
