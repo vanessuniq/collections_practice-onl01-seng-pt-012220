@@ -31,9 +31,8 @@ def sum_array intergers_array
   intergers_array.inject {|sum, interger| sum + interger}
 end 
 
-def add_s strings_array
-  new = []
-  new << strings_array.each_with_index do |string, i|
+def add_s strings_array 
+  strings_array.each_with_index.collect do |string, i|
     if  i = 1
       puts string
     else 
